@@ -75,9 +75,14 @@ if(numeroI %2 ===0){
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
 
+let nota = 6.9 
+if(nota >= 7){
+    console.log("Aprovado!")
+}
 
-
-
+else {
+    console.log("Reprovado hahaha")
+}
 // ============================================================
 //  BLOCO 2 - CONDICIONAIS (if/else, switch)
 // ============================================================

@@ -20,8 +20,13 @@
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
 
+let numero1 = 6
+let numero2 = 7 
 
-
+console.log("soma: " + numero1 + numero2)
+console.log("Subtração: " + (numero1 - numero2))
+console.log("Multiplicação: " + numero1 * numero2)
+console.log("Divisão: "+ numero1 / numero2)
 
 // EXERCÍCIO 2 - Conversor de temperatura
 // Crie uma variável com um valor em Celsius.

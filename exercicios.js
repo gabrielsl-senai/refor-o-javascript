@@ -34,7 +34,8 @@ console.log("Divisão: "+ numero1 / numero2)
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
 
-
+let C = 23
+console.log("F = C: "+(C * 9/5 + 32))
 
 
 // EXERCÍCIO 3 - Par ou ímpar
@@ -43,6 +44,26 @@ console.log("Divisão: "+ numero1 / numero2)
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
+
+let numeroP = 10
+let numeroI = 15
+if(numeroP %2 ===0){
+console.log("Par")
+}
+
+
+else  {
+    console.log("Impar")
+}
+if(numeroI %2 ===0){
+    console.log("Par")
+    }
+    
+    
+    else  {
+        console.log("Impar")
+    }
+    
 
 
 

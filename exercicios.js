@@ -213,7 +213,7 @@ console.log(tabuada*10)
 // No final, mostre "Feliz Ano Novo!" (ou qualquer mensagem).
 // ------------------------------------------------------------
 for (let contador = 10; contador > 0; contador--) {
-    console.log(contador)
+    console.log(contador)}
 
 console.log("Eu amo a Olga")
 
@@ -223,8 +223,12 @@ console.log("Eu amo a Olga")
 // Mostre o resultado noconsole.
 // Exemplo: se N = 5, resultado = 1+2+3+4+5 = 15
 // ------------------------------------------------------------
-
-
+let N = 4
+    for (let i = 1; i <= 10; i++){
+        
+   let resultado = N * i; 
+   console.log(resultado);
+    } 
 
 
 // EXERCÍCIO 12 - Adivinhe o número

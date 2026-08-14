@@ -195,8 +195,17 @@ else {
 //   ... até "5 x 10 = 50"
 // ------------------------------------------------------------
 
-
-
+let tabuada = 5 
+console.log(tabuada*1)
+console.log(tabuada*2)
+console.log(tabuada*3)
+console.log(tabuada*4)
+console.log(tabuada*5)
+console.log(tabuada*6)
+console.log(tabuada*7)
+console.log(tabuada*8)
+console.log(tabuada*9)
+console.log(tabuada*10)
 
 // EXERCÍCIO 10 - Contagem regressiva
 // Use um for para contar de 10 até 0.

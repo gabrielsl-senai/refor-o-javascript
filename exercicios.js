@@ -138,9 +138,21 @@ else {
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
 
+let opcoes = ['pedra' , 'papel', 'tesoura']
+let computador = opcoes[Math.floor(Math.random() * 3)]
+let jogador = 'tesoura'
 
+if(computador === 'pedra'){
+console.log("Derrota")}
 
+else if(computador === 'tesoura'){
+    console.log("Empate")
+}
 
+else{ 
+(computador === 'papel')
+    console.log("Vitória")
+}
 // EXERCÍCIO 8 - Sistema de notas
 // Crie uma variável com uma nota de 0 a 10.
 // Use if/else para mostrar o conceito:
@@ -150,7 +162,6 @@ else {
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
-
 
 
 

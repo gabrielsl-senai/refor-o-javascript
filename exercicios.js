@@ -163,7 +163,23 @@ else{
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
 
+let nota8 = 6 
 
+if(nota8 <= 2 ){
+    console.log('"F"')
+} 
+else if(nota8 <= 4){
+    console.log('"D"') 
+} 
+else if(nota8 <= 6){
+    console.log('"C"')
+} 
+else if(nota8 <= 8){
+    console.log('"B"')
+}
+else {
+    console.log('"A"')
+}
 
 // ============================================================
 //  BLOCO 3 - LOOPS (for, while)

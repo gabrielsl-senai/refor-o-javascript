@@ -212,14 +212,15 @@ console.log(tabuada*10)
 // Mostre cada número no console.
 // No final, mostre "Feliz Ano Novo!" (ou qualquer mensagem).
 // ------------------------------------------------------------
+for (let contador = 10; contador > 0; contador--) {
+    console.log(contador)
 
-
-
+console.log("Eu amo a Olga")
 
 // EXERCÍCIO 11 - Somar números
 // Crie uma variável N com um número qualquer.
 // Use um for para somar todos os números de 1 até N.
-// Mostre o resultado no console.
+// Mostre o resultado noconsole.
 // Exemplo: se N = 5, resultado = 1+2+3+4+5 = 15
 // ------------------------------------------------------------
 

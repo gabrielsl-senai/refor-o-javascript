@@ -94,7 +94,14 @@ else {
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
 
+let idade = 24 
 
+if (idade >= 18){
+    console.log("Maior de idade ")
+} 
+else {
+    console.log("Menor de idade")
+}
 
 
 // EXERCÍCIO 6 - Calculadora de IMC
@@ -107,13 +114,25 @@ else {
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
 
+let peso = 60
+let altura = 1.62 
+let imc = peso/ (altura * altura)
+console.log(imc)
 
+if(imc <= 18.5){
+    console.log("Abaixo do peso")
+}
+else if(imc <= 24.9){
+    console.log("Peso normal")
+}
 
+else if(imc <=29.9){
+    console.log("Sobrepeso")
+} 
+else {
+    console.log("Obesidade")
+}
 
-// EXERCÍCIO 7 - Pedra, papel e tesoura
-// Crie uma variável com sua jogada ("pedra", "papel" ou "tesoura").
-// Faça o computador escolher aleatoriamente uma jogada.
-// Dica para escolha aleatória:
 //   let opcoes = ['pedra', 'papel', 'tesoura']
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.

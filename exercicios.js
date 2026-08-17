@@ -317,6 +317,7 @@ console.log(resultado);
 // inverter, e join('') para voltar a ser string.
 // ------------------------------------------------------------
 
+function inverter
 
 
 
@@ -343,6 +344,21 @@ console.log(resultado);
 // Remova o último item com pop() e mostre a lista novamente.
 // ------------------------------------------------------------
 
+console.log("Lista de compras: ");
+const listaCompras = [];
+
+listaCompras.push("Garrafa")
+listaCompras.push("Óleo de cozinha")
+listaCompras.push("Maquina de serrar industrial")
+listaCompras.push("corsa wind")
+listaCompras.push("palmito")
+listaCompras.pop()
+
+console.log(listaCompras[0])
+console.log(listaCompras[1])
+console.log(listaCompras[2])
+console.log(listaCompras[3])
+console.log(listaCompras[4])
 
 
 

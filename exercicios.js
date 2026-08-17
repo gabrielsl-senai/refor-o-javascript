@@ -195,17 +195,13 @@ else {
 //   ... até "5 x 10 = 50"
 // ------------------------------------------------------------
 
-let tabuada = 5 
-console.log(tabuada*1)
-console.log(tabuada*2)
-console.log(tabuada*3)
-console.log(tabuada*4)
-console.log(tabuada*5)
-console.log(tabuada*6)
-console.log(tabuada*7)
-console.log(tabuada*8)
-console.log(tabuada*9)
-console.log(tabuada*10)
+let T = 5
+    for (let i = 1; i <= 10; i++){
+        
+   let resultado = N * i; 
+   console.log(resultado);
+    } 
+
 
 // EXERCÍCIO 10 - Contagem regressiva
 // Use um for para contar de 10 até 0.
@@ -226,7 +222,7 @@ console.log("Eu amo a Olga")
 let N = 4
     for (let i = 1; i <= 10; i++){
         
-   let resultado = N * i; 
+   let resultado = N + i; 
    console.log(resultado);
     } 
 
@@ -240,9 +236,22 @@ let N = 4
 // Dica: use prompt() para pedir o palpite do usuário.
 // ------------------------------------------------------------
 
+let tentativa = 0;
+let secreto = Math.floor(Math.random() * 10) + 1
+while (tentativa != secreto){
+    tentativa = prompt("Tente acertar o número: ")
 
+if (tentativa < secreto){
+    console.log("O número é maior...")
+} 
+else if (tentativa > secreto){
+    console.log("O número é menor...")
+}
+else {
+    console.log("O número está certo")
+}
 
-
+}
 // ============================================================
 //  BLOCO 4 - FUNÇÕES
 // ============================================================

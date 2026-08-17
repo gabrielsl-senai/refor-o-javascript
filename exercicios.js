@@ -263,6 +263,11 @@ else {
 // Chame a função e mostre o resultado no console.
 // Exemplo: saudacao("Maria") retorna "Olá, Maria!"
 // ------------------------------------------------------------
+let nome = prompt("Me conte seu nome: ")
+function saudacao(nome){
+} 
+return console.log("Olá "+(nome))
+
 
 
 

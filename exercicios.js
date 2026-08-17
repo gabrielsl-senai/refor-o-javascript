@@ -280,6 +280,32 @@ return console.log("Olá "+(nome))
 // algum divide o número sem resto (numero % i === 0).
 // ------------------------------------------------------------
 
+function ehPrimo(numero) {
+ 
+  if (numero <= 1) {
+    return false;
+  }
+
+  
+  for (let i = 2; i < numero; i++) {
+    
+    if (numero % i === 0) {
+      return false; 
+    }
+  }
+
+  
+  return true;
+}
+
+
+let entrada = prompt("Seu numero: ");
+let numeroDigitado = Number(entrada);
+
+
+let resultado = ehPrimo(numeroDigitado); 
+
+console.log(resultado);
 
 
 

@@ -393,8 +393,11 @@ console.log(listaCompras[4])
 // Ou tente fazer com um for (mais desafiador!).
 // ------------------------------------------------------------
 
-
-
+const atvd18 = ['12', '21', '13', '47', '35', '666', '127', '8'] 
+const maximo = Math.max(...atvd18); 
+const minimo = Math.min(...atvd18);
+console.log("Mínimo " + (minimo))
+console.log("Máximo "+ (maximo))
 
 // EXERCÍCIO 19 - Ordenar nomes
 // Crie um array com 6 nomes de pessoas.

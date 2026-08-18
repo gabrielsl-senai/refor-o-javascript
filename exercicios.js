@@ -336,9 +336,24 @@ console.log(nomeInvertido);
 // Dica: transforme em minúscula com .toLowerCase()
 // e verifique cada letra com um for.
 // ------------------------------------------------------------
+console.log("Contador de vogais...")
+let skibidi = prompt("Escreva algo: ")
+function contarVogais(texto){
+ let textoPequeno = texto.toLowerCase(skibidi);
 
+ let contador = 0;
 
+   for (let i = 0; i < textoPequeno.length; i++) {
+    let letra = textoPequeno[i];
+if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+      contador++; 
+}
+}
+return contador
+}
+let resultado = contarVogais(skibidi)
 
+console.log("A palavra "+ (skibidi)+(" tem "+(resultado)+(" vogais ")))
 
 // ============================================================
 //  BLOCO 5 - ARRAYS

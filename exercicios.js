@@ -406,8 +406,11 @@ console.log("Máximo "+ (maximo))
 // Dica: use .sort() e .reverse()
 // ------------------------------------------------------------
 
-
-
+const pessoas = ['Olga(linda maravilhosa)', 'Gabriel', 'Tolstoi', 'Nietschze', 'Freud', 'Dostoíevski']
+const ordem = pessoas.sort();
+const ordem2 = pessoas.reverse();
+console.log(ordem)
+console.log(ordem2)
 
 // EXERCÍCIO 20 - Filtrar pares
 // Crie um array com os números de 1 a 20.

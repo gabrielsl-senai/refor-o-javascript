@@ -316,8 +316,16 @@ console.log(resultado);
 // Dica: use split('') para virar array, reverse() para
 // inverter, e join('') para voltar a ser string.
 // ------------------------------------------------------------
+console.log("Bem vindo ao invertor de palavras!")
+let string = prompt("Digite algo: ")
+function inverter(texto){
+   return texto.split("").reverse().join("");
+}
 
-function inverter
+let nomeInvertido = inverter(string);
+
+console.log(nomeInvertido);
+
 
 
 

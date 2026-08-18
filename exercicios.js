@@ -351,9 +351,9 @@ if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra ==
 }
 return contador
 }
-let resultado = contarVogais(skibidi)
+let resultado2 = contarVogais(skibidi)
 
-console.log("A palavra "+ (skibidi)+(" tem "+(resultado)+(" vogais ")))
+console.log("A palavra "+ (skibidi)+(" tem "+(resultado2)+(" vogais ")))
 
 // ============================================================
 //  BLOCO 5 - ARRAYS

@@ -439,11 +439,9 @@ console.log(filtro)
 // Ao clicar em cada botão, mudar a cor de fundo da página.
 // Dica: document.body.style.backgroundColor = 'red'
 // ------------------------------------------------------------
-
-document.getElementById("Red").body.style.backgroundColor = 'red'
-document.getElementById("Green").body.style.backgroundColor = 'green'
-document.getElementById("Blue").body.style.backgroundColor = 'blue'
-
+function mudarCor(cor) {
+      document.body.style.backgroundColor = cor;
+}
 // EXERCÍCIO 22 - Contador
 // Crie no HTML: um <h1> com o número 0, e dois botões (+ e -).
 // Ao clicar em "+", o número aumenta 1.

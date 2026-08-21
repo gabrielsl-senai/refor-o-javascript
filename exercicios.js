@@ -419,9 +419,12 @@ console.log(ordem2)
 // Dica: use .filter(function(numero) { return numero % 2 === 0 })
 // ------------------------------------------------------------
 
-
-
-
+const d20 = ['1','2','3','4','5',
+    '6','7','8','9','10',
+    '11','12','13','14','15',
+    '16','17','18','19','20']
+const filtro = d20.filter(function(numero) { return numero % 2 === 0 })
+console.log(filtro)
 // ============================================================
 //  BLOCO 6 - DOM (Manipulação da página)
 // ============================================================
@@ -437,8 +440,9 @@ console.log(ordem2)
 // Dica: document.body.style.backgroundColor = 'red'
 // ------------------------------------------------------------
 
-
-
+document.getElementById("Red").body.style.backgroundColor = 'red'
+document.getElementById("Green").body.style.backgroundColor = 'green'
+document.getElementById("Blue").body.style.backgroundColor = 'blue'
 
 // EXERCÍCIO 22 - Contador
 // Crie no HTML: um <h1> com o número 0, e dois botões (+ e -).

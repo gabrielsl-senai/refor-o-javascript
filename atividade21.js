@@ -7,3 +7,8 @@ document.getElementById('blue').addEventListener('click', function (){
 document.getElementById('green').addEventListener('click', function (){
     document.body.style.backgroundColor = 'green'
 })
+
+document.getElementById("maisUm").addEventListener("click",function(){
+let contador = document.getElementById("contador");
+contador.textContent = Number(contador.textContent) + 1;
+})

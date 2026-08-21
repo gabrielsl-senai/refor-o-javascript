@@ -453,6 +453,7 @@ document.getElementById('red').addEventListener('click', function (){
 
 
 
+
 // EXERCÍCIO 23 - Mostrar e esconder
 // Crie no HTML: um botão "Mostrar/Esconder" e um <div> com
 // um texto qualquer dentro.
